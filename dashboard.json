@@ -32,7 +32,7 @@
         "1": {
           "type": "field",
           "field": "logid",
-          "query": "\"logid\"",
+          "query": "\"log-id\"",
           "mandate": "must",
           "active": true,
           "alias": "",

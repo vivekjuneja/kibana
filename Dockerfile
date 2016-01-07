@@ -10,7 +10,9 @@ RUN rm -rf /web/kibana-3.1.0/app/dashboards/*
 
 ADD dashboard.json dashboard.json
 
-WORKDIR /tmp
+WORKDIR /tmp 
+
+
 
 ADD set_kibana.sh set_kibana.sh
 ADD set_dashboard.sh set_dashboard.sh
